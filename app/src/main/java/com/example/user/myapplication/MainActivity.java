@@ -16,17 +16,18 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void buttonpush(View view){
-        //Intent intent = new Intent (this, Main2Activity.class);
-        sendMessage(view);
-        /*EditText editText = (EditText) findViewById(R.id.editText);
+        Intent intent = new Intent (this, Main2Activity.class);
+       // sendMessage(view);
+        EditText editText = (EditText) findViewById(R.id.editText);
         String message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
-        startActivity(intent);*/
+        startActivity(intent);
 
     }
 
     public void sendMessage(View view) {
-        Intent intent = new Intent(this, Main2Activity.class);
+        //Код с сохранением и отправкой кода из Login и Password
+       /* Intent intent = new Intent(this, Main2Activity.class);
         EditText editText = (EditText) findViewById(R.id.editText);
         String login = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, login);
@@ -34,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         EditText editText2 = (EditText) findViewById(R.id.editText2);
         String password = editText2.getText().toString();
         intent.putExtra(EXTRA_MESSAGE2, password);
-        startActivity(intent);
+        startActivity(intent);*/
     }
 
 }

@@ -15,15 +15,15 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activityhello);
-
-        Intent intent = getIntent();
+//Код с заливкой текста из строк Login и Password
+       /* Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
         TextView textView = findViewById(R.id.button2);
         textView.setText(message);
 
-        String message1 = intent.getStringExtra(MainActivity.EXTRA_MESSAGE2);
+       String message1 = intent.getStringExtra(MainActivity.EXTRA_MESSAGE2);
         TextView textView1 = findViewById(R.id.textView);
-        textView1.setText(message1);
+        textView1.setText(message1);*/
     }
 
 

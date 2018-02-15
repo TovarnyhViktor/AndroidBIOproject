@@ -15,15 +15,19 @@
         android:onClick="Go"
         android:text="Button"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="148dp" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="176dp"
-        android:layout_marginTop="228dp"
-        android:text="TextView"
+        android:layout_width="364dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="184dp"
+        android:text="Welcome to our application,we are glad to see u here, we are junior developers,but we wanna do somethink cool :)"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
